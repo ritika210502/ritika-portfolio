@@ -6,7 +6,7 @@ This is the personal portfolio website of **Ritika Chourasia**, showcasing my sk
 
 You can view the live version of the portfolio here:
 
-[View My Portfolio](https://ritika210505.github.io/ritika-portfolio)
+[View My Portfolio](https://ritika210502.github.io/ritika-portfolio/)
 
 ## Features
 
