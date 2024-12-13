@@ -6,7 +6,7 @@ This is the personal portfolio website of **Ritika Chourasia**, showcasing my sk
 
 You can view the live version of the portfolio here:
 
-[View My Portfolio](https://yourusername.github.io/ritika-portfolio)
+[View My Portfolio](https://ritika210502.github.io/ritika-portfolio/)
 
 ## Features
 
@@ -30,7 +30,7 @@ To view the project locally on your machine, follow these steps:
 
 1. **Clone the repository**:
     ```bash
-    git clone https://github.com/yourusername/ritika-portfolio.git
+    git clone https://github.com/ritika210502/ritika-portfolio.git
     ```
 
 2. **Navigate into the project directory**:
