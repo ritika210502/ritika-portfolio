@@ -73,6 +73,31 @@
     padding: 10px 0;
 }
 
+/* Mobile Menu */
+.navbar .menu-toggle {
+    display: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #fff;
+}
+
+.navbar ul.mobile-menu {
+    display: none;
+    flex-direction: column;
+    background-color: #000;
+    position: absolute;
+    top: 60px;
+    right: 50px;
+    width: 200px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    padding: 10px 0;
+}
+
+.navbar ul.mobile-menu.show {
+    display: flex;
+}
+
 /* Responsive Design */
 @media screen and (max-width: 768px) {
     .navbar ul {

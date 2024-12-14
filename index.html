@@ -23,7 +23,22 @@
             <li><a class="nav-link " href="#contact">Contact</a></li>
             <li><a class="nav-link " href="Ritika_Chourasia_Resume.pdf" download>Download Resume</a></li>
         </ul>
+
+        <!-- Mobile menu toggle button (hamburger) -->
+        <span class="menu-toggle">☰</span>
+
+        <!-- Mobile menu items -->
+        <ul class="mobile-menu">
+            <li><a class="nav-link " href="#about">About</a></li>
+            <li><a class="nav-link " href="#projects">Projects</a></li>
+            <li><a class="nav-link " href="#experience">Experience</a></li>
+            <li><a class="nav-link " href="#education">Education</a></li>
+            <li><a class="nav-link " href="#certificates">Certifications</a></li>
+            <li><a class="nav-link " href="#contact">Contact</a></li>
+            <li><a class="nav-link " href="Ritika_Chourasia_Resume.pdf" download>Download Resume</a></li>
+        </ul>
     </nav>
+
 
     <!-- Header -->
     <header class="header">
@@ -418,6 +433,18 @@
             <p>&copy; 2024 Ritika Chourasia. All rights reserved.</p>
         </div>
     </footer>
+
+    <script>
+        // Get references to the menu toggle button and mobile menu
+        const menuToggle = document.querySelector('.menu-toggle');
+        const mobileMenu = document.querySelector('.mobile-menu');
+    
+        // Add event listener to toggle the 'show' class on mobile menu when clicked
+        menuToggle.addEventListener('click', () => {
+            mobileMenu.classList.toggle('show');
+        });
+    </script>
+    
 </body>
 
 </html>
